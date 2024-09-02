@@ -29,9 +29,3 @@ class Board
     !@board.include?("-")
   end
 end
-
-game = Board.new
-
-puts game.display_board
-game.update_board(0, "X")
-puts game.display_board
